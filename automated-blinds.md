@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Automated blind control via an Amazon echo dot
+Automated blind control via an Amazon Echo Dot and Raspberry Pi
 
 ![](images/IMG_1634_1024x768.jpeg)
 ![](images/IMG_1635_1024x768.jpeg)
