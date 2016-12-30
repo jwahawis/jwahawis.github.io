@@ -1,0 +1,1 @@
+exiftran -a -i *
