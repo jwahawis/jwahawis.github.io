@@ -14,7 +14,9 @@ Closing
 
 ## [](#header-2)Build
 
+My apartment has large windows that are great during the day, but get a lot of light pollution at night. I've been wanting to automate the blinds given the advent of Siri and Alexa, but have hesitated assuming I would need to machine or fabricate _something_. That was until I discovered Amazon literally sells [every](https://www.amazon.com/gp/product/B010MZ8SQU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B010MZ8SQU&linkId=1000de7377d9110fe24d93d647a139b6) [coupler](https://www.amazon.com/gp/product/B00DCAIRIC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00DCAIRIC&linkId=f42e90a307e7c301764135e5522e3a88) [imagineable](https://www.amazon.com/gp/product/B00KHTVOEU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00KHTVOEU&linkId=863f0c0e23c7aef7aab1de1188a792b1).
 
+I ended up automating through Alexa as it is already so well supported. I was up and running in under an hour by simply combining [fauxmo](https://pypi.python.org/pypi/fauxmo/0.3.2) with [Adafruit's motor drivers](https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library/tree/master/Adafruit_MotorHAT). See my poorly written code [here](blinds_project/blinds.py). The script runs automatically on startup and there's a simple writeup [here](http://www.instructables.com/id/Raspberry-Pi-Launch-Python-script-on-startup/?ALLSTEPS). I had to add in a delay as it was running before acquiring wifi. The motors run a bit slow, but anything beyond 1/4 microstepping was unbearably loud. By default the Adafruit library runs 1/8 microstepping.
 
 ### Shameless Amazon Associates BOM:
 
@@ -27,11 +29,7 @@ Closing
 *   [Mounting Bracket](https://www.amazon.com/gp/product/B01HHPD7LY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01HHPD7LY&linkId=49983742adc85960077c9a8a90a3d6e6)
 *   [6" Bar Clamps](https://www.amazon.com/gp/product/B0000CCXVF/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0000CCXVF&linkId=cb3802da6ccd80423604759d4878cb0b)
 
-My apartment has large windows that are great during the day, but get a lot of light pollution at night. I've been wanting to automate the blinds given the advent of Siri and Alexa, but have hesitated assuming I would need to machine or fabricate _something_. That was until I discovered Amazon literally sells [every](https://www.amazon.com/gp/product/B010MZ8SQU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B010MZ8SQU&linkId=1000de7377d9110fe24d93d647a139b6) [coupler](https://www.amazon.com/gp/product/B00DCAIRIC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00DCAIRIC&linkId=f42e90a307e7c301764135e5522e3a88) [imagineable](https://www.amazon.com/gp/product/B00KHTVOEU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00KHTVOEU&linkId=863f0c0e23c7aef7aab1de1188a792b1). 
-
-I ended up automating through Alexa as it is already so well supported. I was up and running in under an hour by simply combining [fauxmo](https://pypi.python.org/pypi/fauxmo/0.3.2) with [Adafruit's motor drivers](https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library/tree/master/Adafruit_MotorHAT).
-
-The motors run a bit slow, but anything beyond 1/4 microstepping was unbearably loud. 
+## [](#header-2)Pictures
 
 ![](images/IMG_1634_1024x768.jpeg){:width="768px"}
 
