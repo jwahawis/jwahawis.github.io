@@ -8,7 +8,7 @@ Automated blind control via an Amazon Echo Dot and Raspberry Pi
 
 [![](images/opening_video.png)](https://www.youtube.com/watch?v=Tw-ZOflzcSQ)
 
-[![](images/closeing_video.png)](https://www.youtube.com/watch?v=yLr2ESYjLDU)
+[![](images/closing_video.png)](https://www.youtube.com/watch?v=yLr2ESYjLDU)
 
 ## [](#header-2)Build
 
