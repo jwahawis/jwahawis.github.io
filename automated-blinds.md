@@ -14,7 +14,10 @@ Closing
 
 ## [](#header-2)Build
 
-Shameless Amazon Associates BOM
+
+
+### Shameless Amazon Associates BOM:
+
 *   [Amazon Echo Dot](https://www.amazon.com/gp/product/B01DFKC2SO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01DFKC2SO&linkId=8066284c29bcd47b07bf712aa5f31467)
 *   [Raspberry Pi with accessories](https://www.amazon.com/gp/product/B01C6Q2GSY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01C6Q2GSY&linkId=6dcd7db5905d7f718fe61928d9391ecf)
 *   [Adafruit Stepper Hat](https://www.amazon.com/gp/product/B00TIY5JM8/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=jwahawis-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00TIY5JM8&linkId=ffca63697e4f9ccf353288e846d3f175)
