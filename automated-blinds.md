@@ -49,3 +49,4 @@ I ended up automating through Alexa as it is already so well supported. I was up
 
 ![](images/IMG_1644_1024x768.jpeg){:width="768px"}
 
+These pictures were from the initial testing, the wires are no longer visible... much.
