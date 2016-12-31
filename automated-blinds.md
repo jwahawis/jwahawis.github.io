@@ -3,6 +3,7 @@ layout: default
 ---
 
 Automated blind control via an Amazon Echo Dot and Raspberry Pi
+
 12/25/16 - 12/28/16
 
 ## [](#header-2)Videos
